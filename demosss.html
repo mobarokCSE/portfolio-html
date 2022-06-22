@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+
+<!--
+   Template:   FreeBird - Photography Portfolio HTML Website Template
+   Author:     Themetorium
+   URL:        http://themetorium.net  
+-->
+
+<html lang="en">
+	<head>
+
+		<!-- Title -->
+		<title>Demos - FreeBird - Photography Portfolio HTML Website Template</title>
+
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Responsive Photography HTML5 Website Template">
+		<meta name="author" content="themetorium.net">
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Favicon (http://www.favicon-generator.org/) -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+		<!-- Paste your Google Analytics code here. 
+		Go to http://www.google.com/analytics/ for more information. -->
+
+		<!-- Google fonts (https://www.google.com/fonts) -->
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> <!-- Global font -->
+		<link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet"> <!-- Alter font 1 -->
+		<link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps" rel="stylesheet"> <!-- Alter font 2 -->
+
+		<!-- Bootstrap CSS (http://getbootstrap.com) -->
+		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css"> <!-- bootstrap CSS (http://getbootstrap.com) -->
+
+		<!-- Libs and Plugins CSS -->
+		<link rel="stylesheet" href="assets/vendor/animsition/css/animsition.min.css"> <!-- Animsition CSS (http://git.blivesta.com/animsition/) -->
+		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css"> <!-- Font Icons CSS (http://fortawesome.github.io/Font-Awesome) -->
+		<link rel="stylesheet" href="assets/vendor/lightgallery/css/lightgallery.min.css"> <!-- lightGallery CSS (http://sachinchoolur.github.io/lightGallery) -->
+		<link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.carousel.min.css"> <!-- Owl Carousel CSS (http://www.owlcarousel.owlgraphic.com) -->
+		<link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.theme.default.min.css"> <!-- Owl Carousel CSS (http://www.owlcarousel.owlgraphic.com) -->
+		<link rel="stylesheet" href="assets/vendor/ytplayer/css/jquery.mb.YTPlayer.min.css"> <!-- YTPlayer CSS (more info: https://github.com/pupunzi/jquery.mb.YTPlayer) -->
+		<link rel="stylesheet" href="assets/vendor/animate.min.css"> <!-- Animate libs CSS (http://daneden.me/animate) -->
+
+		<!-- Template master CSS -->
+		<link rel="stylesheet" href="assets/css/helper.css">
+		<link rel="stylesheet" href="assets/css/theme.css">
+
+		<!-- Template dark style CSS (uncomment to enable dark style)-->
+		<!-- <link rel="stylesheet" href="assets/css/dark-style.css"> -->
+
+	</head>
+
+	<!-- ===========
+	///// Body /////
+	================
+	* Add class "temp-uppercase" to enable uppercase letters (eg. headings, menu links).
+	* Add class "temp-letter-spacing" to enable spacing between letters (eg. headings, menu links).
+	* Use class "temp-grayscale" to enable grayscale effect when menu is open (no effect on all browsers!).
+	* Add class "animsition" to enable page transition while page loads.
+	-->
+	<body class="temp-uppercase animsition" data-spy="scroll" data-target="#menu">
+
+
+		<!-- Page cover (if menu is open) -->
+		<span class="page-cover"></span>
+
+
+		<!-- ===================
+		///// Begin header /////
+		========================
+		* Add class "header-dark" to enable header dark style.
+		* Use class "header-click", "header-hover" or "header-fixed" to change behavior of the header (one of them is required!).
+		-->
+		<div id="header" class="header-hover">
+
+			<!-- Header close button -->
+			<div class="header-close" title="Close">×</div>
+
+			<!-- Begin logo small -->
+			<div class="logo-small">
+				<a href="index.html" ><img src="assets/img/logo-small.png" title="Home" alt="logo"></a>
+			</div>
+			<!-- End logo small -->
+
+			<!-- Header menu icon -->
+			<span class="header-menu-icon" title="Open Menu"><i class="fas fa-bars"></i></span>
+			
+			<!-- Header contact icon -->
+			<a href="" class="header-contact-icon" title="Contact Me"><i class="far fa-envelope"></i></a>
+
+
+			<!-- Begin header inner 
+			======================== -->
+			<div class="header-inner">
+				
+				<!-- Begin header top -->
+				<div class="header-top">
+
+					<!-- Begin logo big -->
+					<div class="logo-big">
+						<a href="index.html"><img src="assets/img/logo-big.png" title="Home" alt="logo"></a>
+					</div>
+					<!-- End logo big -->
+					
+				</div>
+				<!-- End header top -->
+
+				<!-- Begin header middle -->
+				<div class="header-middle">
+
+					<!-- Begin menu -->
+					<div id="menu">
+						<ul class="nav menu-list"> <!-- class "nav" is for bootstrap scrollspy only -->
+							<li><a href="#demo-intro" class="sm-scroll">Intro</a></li>
+							<li class="has-children">
+								<a href="#" class="sub-menu-trigger">Albums</a> 
+								<ul class="sub-menu">
+									<li><a href="#demo-albums-list" class="sm-scroll">Albums List</a></li>
+									<li><a href="#demo-albums-list-item-styles" class="sm-scroll">Item Styles</a></li>
+									<li><a href="#demo-albums-list-grid" class="sm-scroll">Grid</a></li>
+									<li><a href="#demo-albums-list-masonry" class="sm-scroll">Masonry</a></li>
+								</ul>
+							</li>
+							<li class="has-children">
+								<a href="#" class="sub-menu-trigger">Gallery</a> 
+								<ul class="sub-menu">
+									<li><a href="#demo-single-gallery" class="sm-scroll">Single Gallery</a></li>
+									<li><a href="#demo-single-gallery-columns" class="sm-scroll">Columns</a></li>
+									<li><a href="#demo-single-gallery-gutters" class="sm-scroll">Gutters</a></li>
+									<li><a href="#demo-single-gallery-hover-styles" class="sm-scroll">Hover Styles</a></li>
+								</ul>
+							</li>
+							<li><a href="#demo-menu" class="sm-scroll">Menu</a></li>
+							<li><a href="#demo-blog" class="sm-scroll">Blog</a></li>
+							<li><a href="#demo-pages" class="sm-scroll">Pages</a></li>
+						</ul> <!-- /.menu-list -->
+					</div>
+					<!-- End menu -->
+
+				</div>
+				<!-- End header middle -->
+
+				<!-- Begin header bottom -->
+				<div class="header-bottom">
+
+					<!-- Begin follow me buttons -->
+					<div class="follow-me-buttons">
+						<ul>
+							<li><a href="https://www.facebook.com/themetorium" title="Follow me on Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li> 
+							<li><a href="https://dribbble.com/Themetorium" title="Follow me on Dribbble" target="_blank"><i class="fab fa-dribbble"></i></a></li> 
+							<li><a href="" title="Follow me on Behance" target="_blank"><i class="fab fa-behance"></i></a></li> 
+							<li><a href="mailto:info@your-email.com" title="Email Me" target="_blank"><i class="far fa-envelope"></i></a></li>
+						</ul>
+					</div>
+					<!-- End follow me buttons -->
+
+					<!-- Begin copyright -->
+					<div class="copyright">
+						Copyright © 2016 <br>
+						<a target="_blank" href="https://themetorium.net">Themetorium</a>
+					</div>
+					<!-- End copyright -->
+
+				</div>
+				<!-- End header bottom -->
+
+			</div> 
+			<!-- End header inner -->
+
+		</div>
+		<!-- End header -->
+
+
+		<!-- ==========================
+		///// Begin mobile header /////
+		===============================
+		* Add class "m-header-dark" to enable header dark style.
+		-->
+		<div id="mobile-header">
+
+			<!-- Begin logo small -->
+			<div class="logo-mobile">
+				<a href="index.html"><img src="assets/img/logo-small.png" alt="logo"></a>
+			</div>
+			<!-- End logo small -->
+
+			<!-- Mobile menu trigger -->
+			<div class="mobile-menu-trigger"><span></span></div>
+
+		</div>
+		<!-- End mobile header -->
+
+
+		<!-- *************************************
+		*********** Begin body content *********** 
+		************************************** -->
+		<div id="body-content">
+
+			<!-- ========================
+			///// Begin page header /////
+			========================= -->
+			<section id="page-header" class="demo-page-header">
+
+				<!-- Begin page header image 
+				============================= 
+				* Use class "parallax-1", "parallax-2", "parallax-3", "parallax-4", "parallax-5" or "parallax-6" to enable parallax effect.
+				* Use class "fade-out-scroll-3" to enable fade out effect if page scroll.
+				-->
+				<div class="page-header-image parallax-3 bg-image" style="background-image: url(assets/img/misc/page-header-bg-4.jpg); background-position: 50% 50%;">
+					
+					<!-- Element cover -->
+					<div class="cover bg-transparent-4-dark"></div>
+
+				</div>
+				<!-- End page header image -->
+
+				<!-- Begin page header caption 
+				=============================== 
+				* Use class "parallax-1", "parallax-2", "parallax-3", "parallax-4", "parallax-5" or "parallax-6" to enable parallax effect.
+				* Use class "fade-out-scroll-4" to enable fade out effect if page scroll.
+				-->
+				<div class="page-header-caption fade-out-scroll-4 parallax-4">
+					<h1 class="page-header-title font-alter-2">FreeBird</h1>
+					<p class="page-header-sub-title">
+						Photography Portfolio HTML Website Template
+					</p>
+					<div class="margin-top-30">
+						<a href="#demo-intro" class="btn btn-white-bordered margin-top-5 btn-lg sm-scroll">Select a Demo</a>
+						<a href="https://themeforest.net/user/themetorium/portfolio?ref=Themetorium" class="btn btn-primary margin-top-5 btn-lg" target="_blank">Buy This Template</a>
+					</div>
+				</div>
+				<!-- End page header caption -->
+
+			</section>
+			<!-- End page header -->
+
+
+
+
+			<!-- ==============================
+			///// Begin demo text section /////
+			=============================== -->
+			<div id="demo-text" class="demo-text-section">
+				<div class="container max-width-900">
+					<div class="row">
+
+						<div class="col-md-12">
+							<div class="demo-text text-center">
+								Freebird – is a complete HTML5 and CSS3 website template based on popular Bootstrap Framework. The template fits perfectly for photography portfolio sites. It looks great with all types of devices (laptops, tablets and mobiles).
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</div>
+			<!-- End demo text section -->
+
+
+
+
+
+			<!-- ====================================
+			///// Begin demo thumbnails section /////
+			===================================== -->
+			<section id="demo-intro" class="demo-thumbnails-section">
+				<div class="container-fluid">
+
+					<!-- Begin demo heading -->
+					<div class="demo-heading">
+						<h2 class="demo-heading-title font-alter-1">Intro</h2>
+					</div>
+					<!-- End demo heading -->
+
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="intro-image.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/intro-image.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="intro-image.html" class="demo-thumbnail-btn" target="_blank"><span>01.</span> Image</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="intro-video.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/intro-video.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="intro-video.html" class="demo-thumbnail-btn" target="_blank"><span>02.</span> Video</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="intro-slideshow.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/intro-slideshow.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="intro-slideshow.html" class="demo-thumbnail-btn" target="_blank"><span>03.</span> Slideshow</a>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section>
+			<!-- End demo thumbnails section -->
+
+
+
+
+
+
+
+
+
+
+
+			<!-- ====================================
+			///// Begin demo thumbnails section /////
+			===================================== -->
+			<section id="demo-albums-list" class="demo-thumbnails-section">
+				<div class="container-fluid">
+
+					<!-- Begin demo heading -->
+					<div class="demo-heading">
+						<h2 class="demo-heading-title font-alter-1">Albums List</h2>
+					</div>
+					<!-- End demo heading -->
+
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-categories.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-categories.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-categories.html" class="demo-thumbnail-btn" target="_blank"><span>01.</span> Categories</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-page-header.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-page-header.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-page-header.html" class="demo-thumbnail-btn" target="_blank"><span>02.</span> With Page Header</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-no-crop.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-no-crop.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-no-crop.html" class="demo-thumbnail-btn" target="_blank"><span>03.</span> List (No Crop)</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-horizontal-scroll.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-horizontal-scroll.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-horizontal-scroll.html" class="demo-thumbnail-btn" target="_blank"><span>04.</span> Horizontal Scroll</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-slider.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-slider.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-slider.html" class="demo-thumbnail-btn" target="_blank"><span>05.</span> Slider</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-slider-no-crop.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-slider-no-crop.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-slider-no-crop.html" class="demo-thumbnail-btn" target="_blank"><span>06.</span> Slider (No Crop)</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-slideshow.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-slideshow.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-slideshow.html" class="demo-thumbnail-btn" target="_blank"><span>07.</span> Slideshow</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-striped-albums.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-striped-albums.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-striped-albums.html" class="demo-thumbnail-btn" target="_blank"><span>08.</span> Striped Albums</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-striped-categories.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-striped-categories.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-striped-categories.html" class="demo-thumbnail-btn" target="_blank"><span>09.</span> Striped Categories</a>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section>
+			<!-- End demo thumbnails section -->
+
+
+
+
+
+			<!-- ====================================
+			///// Begin demo thumbnails section /////
+			===================================== -->
+			<section id="demo-albums-list-item-styles" class="demo-thumbnails-section">
+				<div class="container-fluid">
+
+					<!-- Begin demo heading -->
+					<div class="demo-heading">
+						<h2 class="demo-heading-title font-alter-1">Albums List - Item Styles</h2>
+					</div>
+					<!-- End demo heading -->
+
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-item-style-1.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-item-style-1.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-item-style-1.html" class="demo-thumbnail-btn" target="_blank"><span>01.</span> Item Style 1</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-item-style-2.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-item-style-2.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-item-style-2.html" class="demo-thumbnail-btn" target="_blank"><span>02.</span> tem Style 2</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-item-style-3.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-item-style-3.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-item-style-3.html" class="demo-thumbnail-btn" target="_blank"><span>03.</span> Item Style 3</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-item-style-4.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-item-style-4.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-item-style-4.html" class="demo-thumbnail-btn" target="_blank"><span>04.</span> Item Style 4</a>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section>
+			<!-- End demo thumbnails section -->
+
+
+
+
+
+			<!-- ====================================
+			///// Begin demo thumbnails section /////
+			===================================== -->
+			<section id="demo-albums-list-grid" class="demo-thumbnails-section">
+				<div class="container-fluid">
+
+					<!-- Begin demo heading -->
+					<div class="demo-heading">
+						<h2 class="demo-heading-title font-alter-1">Albums List - Grid</h2>
+					</div>
+					<!-- End demo heading -->
+
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-col-1.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-col-1.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-col-1.html" class="demo-thumbnail-btn" target="_blank"><span>01.</span> 1 column</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-col-1-no-cutter.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-col-1-no-cutter.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-col-1-no-cutter.html" class="demo-thumbnail-btn" target="_blank"><span>02.</span> 1 column (no cutter)</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-grid-col-2.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-grid-col-2.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-grid-col-2.html" class="demo-thumbnail-btn" target="_blank"><span>03.</span> 2 columns</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-grid-col-3.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-grid-col-3.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-grid-col-3.html" class="demo-thumbnail-btn" target="_blank"><span>04.</span> 3 columns</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-grid-col-4.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-grid-col-4.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-grid-col-4.html" class="demo-thumbnail-btn" target="_blank"><span>05.</span> 4 columns</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-grid-col-5.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-grid-col-5.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-grid-col-5.html" class="demo-thumbnail-btn" target="_blank"><span>06.</span> 5 columns</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-grid-no-filter.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-grid-no-filter.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-grid-no-filter.html" class="demo-thumbnail-btn" target="_blank"><span>07.</span> No Filter</a>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section>
+			<!-- End demo thumbnails section -->
+
+
+
+
+
+			<!-- ====================================
+			///// Begin demo thumbnails section /////
+			===================================== -->
+			<section id="demo-albums-list-masonry" class="demo-thumbnails-section">
+				<div class="container-fluid">
+
+					<!-- Begin demo heading -->
+					<div class="demo-heading">
+						<h2 class="demo-heading-title font-alter-1">Albums List - Masonry</h2>
+					</div>
+					<!-- End demo heading -->
+
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-masonry-col-2.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-masonry-col-2.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-masonry-col-2.html" class="demo-thumbnail-btn" target="_blank"><span>01.</span> 2 columns</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-masonry-col-3.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-masonry-col-3.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-masonry-col-3.html" class="demo-thumbnail-btn" target="_blank"><span>02.</span> 3 columns</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-masonry-col-4.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-masonry-col-4.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-masonry-col-4.html" class="demo-thumbnail-btn" target="_blank"><span>03.</span> 4 columns</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-offset-2 col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-masonry-col-5.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-masonry-col-5.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-masonry-col-5.html" class="demo-thumbnail-btn" target="_blank"><span>04.</span> 5 columns</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-list-masonry-no-filter.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-list-masonry-no-filter.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-list-masonry-no-filter.html" class="demo-thumbnail-btn" target="_blank"><span>05.</span> No Filter</a>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section>
+			<!-- End demo thumbnails section -->
+
+
+
+
+
+			<!-- ====================================
+			///// Begin demo thumbnails section /////
+			===================================== -->
+			<section id="demo-single-gallery" class="demo-thumbnails-section">
+				<div class="container-fluid">
+
+					<!-- Begin demo heading -->
+					<div class="demo-heading">
+						<h2 class="demo-heading-title font-alter-1">Single Gallery</h2>
+					</div>
+					<!-- End demo heading -->
+
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single.html" class="demo-thumbnail-btn" target="_blank"><span>01.</span> Default</a>
+								</div>
+							</div>
+						</div>						
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-no-crop.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-no-crop.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-no-crop.html" class="demo-thumbnail-btn" target="_blank"><span>02.</span> No Crop</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-top-info.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-top-info.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-top-info.html" class="demo-thumbnail-btn" target="_blank"><span>03.</span> Top Info</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-page-header.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-page-header.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-page-header.html" class="demo-thumbnail-btn" target="_blank"><span>04.</span> With Page Header</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-simple.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-simple.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-simple.html" class="demo-thumbnail-btn" target="_blank"><span>05.</span> Simple Grid</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-simple-gutter.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-simple-gutter.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-simple-gutter.html" class="demo-thumbnail-btn" target="_blank"><span>06.</span> Simple Grid + Gutter</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-slider.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-slider.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-slider.html" class="demo-thumbnail-btn" target="_blank"><span>07.</span> Slider</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-slider-center.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-slider-center.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-slider-center.html" class="demo-thumbnail-btn" target="_blank"><span>08.</span> Slider Center</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-sidebar-left-grid.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-sidebar-left-grid.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-sidebar-left-grid.html" class="demo-thumbnail-btn" target="_blank"><span>09.</span> Left Sidebar Grid</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-sidebar-right-grid.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-sidebar-right-grid.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-sidebar-right-grid.html" class="demo-thumbnail-btn" target="_blank"><span>09.</span> Right Sidebar Grid</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-sidebar-left-slider.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-sidebar-left-slider.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-sidebar-left-slider.html" class="demo-thumbnail-btn" target="_blank"><span>09.</span> Left Sidebar Slider</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-sidebar-right-slider.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-sidebar-right-slider.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-sidebar-right-slider.html" class="demo-thumbnail-btn" target="_blank"><span>09.</span> Right Sidebar Slider</a>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section>
+			<!-- End demo thumbnails section -->
+
+
+
+
+
+			<!-- ====================================
+			///// Begin demo thumbnails section /////
+			===================================== -->
+			<section id="demo-single-gallery-columns" class="demo-thumbnails-section">
+				<div class="container-fluid">
+
+					<!-- Begin demo heading -->
+					<div class="demo-heading">
+						<h2 class="demo-heading-title font-alter-1">Single Gallery - Columns</h2>
+					</div>
+					<!-- End demo heading -->
+
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-col-2.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-col-2.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-col-2.html" class="demo-thumbnail-btn" target="_blank"><span>01.</span> 2 Columns</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-col-3.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-col-3.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-col-3.html" class="demo-thumbnail-btn" target="_blank"><span>02.</span> 3 Columns</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-col-4.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-col-4.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-col-4.html" class="demo-thumbnail-btn" target="_blank"><span>03.</span> 4 Columns</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-col-5.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-col-5.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-col-5.html" class="demo-thumbnail-btn" target="_blank"><span>04.</span> 5 Columns</a>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section>
+			<!-- End demo thumbnails section -->
+
+
+
+
+
+			<!-- ====================================
+			///// Begin demo thumbnails section /////
+			===================================== -->
+			<section id="demo-single-gallery-gutters" class="demo-thumbnails-section">
+				<div class="container-fluid">
+
+					<!-- Begin demo heading -->
+					<div class="demo-heading">
+						<h2 class="demo-heading-title font-alter-1">Single Gallery - Gutters</h2>
+					</div>
+					<!-- End demo heading -->
+
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-gutter-1.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-gutter-1.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-gutter-1.html" class="demo-thumbnail-btn" target="_blank"><span>01.</span> Gutter 1</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-gutter-2.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-gutter-2.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-gutter-2.html" class="demo-thumbnail-btn" target="_blank"><span>02.</span> Gutter 2</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-gutter-3.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-gutter-3.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-gutter-3.html" class="demo-thumbnail-btn" target="_blank"><span>03.</span> Gutter 3</a>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section>
+			<!-- End demo thumbnails section -->
+
+
+
+
+
+			<!-- ====================================
+			///// Begin demo thumbnails section /////
+			===================================== -->
+			<section id="demo-single-gallery-hover-styles" class="demo-thumbnails-section">
+				<div class="container-fluid">
+
+					<!-- Begin demo heading -->
+					<div class="demo-heading">
+						<h2 class="demo-heading-title font-alter-1">Single Gallery - Hover Styles</h2>
+					</div>
+					<!-- End demo heading -->
+
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-hover-color.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-hover-color.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-hover-color.html" class="demo-thumbnail-btn" target="_blank"><span>01.</span> Hover Color</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-hover-color-boxed.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-hover-color-boxed.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-hover-color-boxed.html" class="demo-thumbnail-btn" target="_blank"><span>02.</span> Hover Color (Boxed)</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-hover-dark.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-hover-dark.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-hover-dark.html" class="demo-thumbnail-btn" target="_blank"><span>03.</span> Hover Dark</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-hover-dark-boxed.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-hover-dark-boxed.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-hover-dark-boxed.html" class="demo-thumbnail-btn" target="_blank"><span>04.</span> Hover Dark (Boxed)</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-hover-light.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-hover-light.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-hover-light.html" class="demo-thumbnail-btn" target="_blank"><span>05.</span> Hover Light</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-hover-light-boxed.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-hover-light-boxed.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-hover-light-boxed.html" class="demo-thumbnail-btn" target="_blank"><span>06.</span> Hover Light (Boxed)</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-hover-simple.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/gallery-single-hover-simple.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-hover-simple.html" class="demo-thumbnail-btn" target="_blank"><span>07.</span> Hover Simple</a>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section>
+			<!-- End demo thumbnails section -->
+
+
+
+
+
+			<!-- ====================================
+			///// Begin demo thumbnails section /////
+			===================================== -->
+			<section id="demo-menu" class="demo-thumbnails-section">
+				<div class="container-fluid">
+
+					<!-- Begin demo heading -->
+					<div class="demo-heading">
+						<h2 class="demo-heading-title font-alter-1">Menu</h2>
+					</div>
+					<!-- End demo heading -->
+
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-simple-gutter.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/menu-hover.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-simple-gutter.html" class="demo-thumbnail-btn" target="_blank"><span>01.</span> Menu Hover</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="menu-click.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/menu-click.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="menu-click.html" class="demo-thumbnail-btn" target="_blank"><span>02.</span> Menu Click</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="menu-fixed.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/menu-fixed.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="menu-fixed.html" class="demo-thumbnail-btn" target="_blank"><span>03.</span> Menu Fixed</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-offset-2 col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="menu-dark.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/menu-dark.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="menu-dark.html" class="demo-thumbnail-btn" target="_blank"><span>04.</span> Menu Dark</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="gallery-single-simple-gutter.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/menu-grayscale.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="gallery-single-simple-gutter.html" class="demo-thumbnail-btn" target="_blank"><span>05.</span> Menu Grayscale</a>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section>
+			<!-- End demo thumbnails section -->
+
+
+
+
+
+			<!-- ====================================
+			///// Begin demo thumbnails section /////
+			===================================== -->
+			<section id="demo-blog" class="demo-thumbnails-section">
+				<div class="container-fluid">
+
+					<!-- Begin demo heading -->
+					<div class="demo-heading">
+						<h2 class="demo-heading-title font-alter-1">Blog</h2>
+					</div>
+					<!-- End demo heading -->
+
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="blog-list-classic.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/blog-list-classic.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="blog-list-classic.html" class="demo-thumbnail-btn" target="_blank"><span>01.</span> Classic</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="blog-list-classic-no-sidebar.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/blog-list-classic-no-sidebar.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="blog-list-classic-no-sidebar.html" class="demo-thumbnail-btn" target="_blank"><span>02.</span> Classic (no sidebar)</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="blog-list-grid.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/blog-list-grid.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="blog-list-grid.html" class="demo-thumbnail-btn" target="_blank"><span>03.</span> Grid</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="blog-list-grid-no-sidebar.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/blog-list-grid-no-sidebar.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="blog-list-grid-no-sidebar.html" class="demo-thumbnail-btn" target="_blank"><span>04.</span> Grid (no sidebar)</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="blog-single.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/blog-single.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="blog-single.html" class="demo-thumbnail-btn" target="_blank"><span>05.</span> Single Post</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="blog-single-no-sidebar.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/blog-single-no-sidebar.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="blog-single-no-sidebar.html" class="demo-thumbnail-btn" target="_blank"><span>06.</span> Single Post (no sidebar)</a>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section>
+			<!-- End demo thumbnails section -->
+
+
+
+
+
+			<!-- ====================================
+			///// Begin demo thumbnails section /////
+			===================================== -->
+			<section id="demo-pages" class="demo-thumbnails-section">
+				<div class="container-fluid">
+
+					<!-- Begin demo heading -->
+					<div class="demo-heading">
+						<h2 class="demo-heading-title font-alter-1">Pages</h2>
+					</div>
+					<!-- End demo heading -->
+
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="about-me.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/about-me.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="about-me.html" class="demo-thumbnail-btn" target="_blank"><span>01.</span> About Me</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="about-me-2.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/about-me-2.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="about-me-2.html" class="demo-thumbnail-btn" target="_blank"><span>02.</span> About Me 2</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="about-me-simple.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/about-me-simple.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="about-me-simple.html" class="demo-thumbnail-btn" target="_blank"><span>03.</span> About Me (simple)</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="about-me-simple-2.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/about-me-simple-2.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="about-me-simple-2.html" class="demo-thumbnail-btn" target="_blank"><span>04.</span> About Me (simple 2)</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="contact.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/contact.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="contact.html" class="demo-thumbnail-btn" target="_blank"><span>05.</span> Contact</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="contact-simple.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/contact-simple.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="contact-simple.html" class="demo-thumbnail-btn" target="_blank"><span>06.</span> Contact (simple)</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="page-dummy.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/page-dummy.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="page-dummy.html" class="demo-thumbnail-btn" target="_blank"><span>07.</span> Dummy Page</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="page-dummy-2.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/page-dummy-2.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="page-dummy-2.html" class="demo-thumbnail-btn" target="_blank"><span>08.</span> Dummy Page 2</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="demo-thumbnail">
+								<div class="demo-thumbnail-image-wrap">
+									<a href="page-dummy-classic.html" class="demo-thumbnail-image" target="_blank"><img src="assets/img/demos/page-dummy-classic.jpg" alt="image"></a>
+								</div>
+								<div class="demo-thumbnail-bottom">
+									<a href="page-dummy-classic.html" class="demo-thumbnail-btn" target="_blank"><span>09.</span> Dummy Page (classic)</a>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section>
+			<!-- End demo thumbnails section -->
+
+
+
+
+
+
+			<!-- ==================================
+			///// Begin demo call to action section /////
+			=================================== -->
+			<div id="demo-call-to-action" class="demo-call-to-action-section bg-dark text-white">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-12">
+							<div class="demo-call-to-action text-center">
+								You Like This Template? <a href="https://themeforest.net/user/themetorium/portfolio?ref=Themetorium" class="btn btn-primary btn-xlg margin-left-20" target="_blank">You Can Buy It Here!</a>
+							</div>
+						</div>
+
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</div>
+			<!-- End demo call to action section -->
+
+		</div>
+		<!-- End body content -->
+
+
+		<!-- Scroll to top button -->
+		<a href="#body-content" class="scrolltotop sm-scroll" title="Scroll to top"><i class="fas fa-chevron-up"></i></a>
+
+
+
+        
+
+		<!-- ====================
+		///// Scripts below /////
+		===================== -->
+
+		<!-- Core JS -->
+		<script src="assets/vendor/jquery/jquery.min.js"></script> <!-- jquery JS (https://jquery.com) -->
+		<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script> <!-- bootstrap JS (http://getbootstrap.com) -->
+
+		<!-- Libs and Plugins JS -->
+		<script src="assets/vendor/animsition/js/animsition.min.js"></script> <!-- Animsition JS (http://git.blivesta.com/animsition/) -->
+		<script src="assets/vendor/jquery.easing.min.js"></script> <!-- Easing JS (http://gsgd.co.uk/sandbox/jquery/easing/) -->
+		<script src="assets/vendor/isotope.pkgd.min.js"></script> <!-- Isotope JS (http://isotope.metafizzy.co) -->
+		<script src="assets/vendor/imagesloaded.pkgd.min.js"></script> <!-- ImagesLoaded JS (https://github.com/desandro/imagesloaded) -->
+		<script src="assets/vendor/jquery.nicescroll.min.js"></script> <!-- Nicescroll JS (http://areaaperta.com/nicescroll/) -->
+		<script src="assets/vendor/owl-carousel/js/owl.carousel.min.js"></script> <!-- Owl Carousel JS (http://www.owlcarousel.owlgraphic.com) -->
+		<script src="assets/vendor/jquery.mousewheel.min.js"></script> <!-- A jQuery plugin that adds cross browser mouse wheel support (https://github.com/jquery/jquery-mousewheel) -->
+		<script src="assets/vendor/ytplayer/js/jquery.mb.YTPlayer.min.js"></script> <!-- YTPlayer JS (more info: https://github.com/pupunzi/jquery.mb.YTPlayer) -->
+
+		<script src="assets/vendor/lightgallery/js/lightgallery.min.js"></script> <!-- lightGallery JS (http://sachinchoolur.github.io/lightGallery) -->
+		<script src="assets/vendor/lightgallery/js/lightgallery-plugins.js"></script> <!-- lightGallery Plugins JS (http://sachinchoolur.github.io/lightGallery) -->
+		
+		<!-- Theme master JS -->
+		<script src="assets/js/theme.js"></script>
+
+
+
+	</body>
+
+</html>
